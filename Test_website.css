@@ -1,0 +1,138 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Left Section Styling */
+  .left-section {
+    background-color: #1a2740; /* Dark blue background */
+    color: white;
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .left-section h1 {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .left-section .logo {
+    width: 50px; /* Logo size */
+    height: auto;
+    margin-right: 15px; /* Space between logo and text */
+  }
+  
+  .left-section .feature {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px; /* Space between features */
+  }
+  
+  .left-section .feature img {
+    width: 24px; /* Tick icon size */
+    height: auto;
+    margin-right: 15px; /* Space between tick and text */
+    margin-top: 5px; /* Align tick vertically with text */
+  }
+  
+  .left-section .feature .text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .left-section .feature .text strong {
+    font-size: 20px; /* Highlighted text size */
+    font-weight: bold;
+  }
+  
+  /* Right Section Styling */
+  .right-section {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  .right-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form input, form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  form div {
+    display: flex;
+    align-items: center;
+  }
+  
+  form p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  form p a {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
